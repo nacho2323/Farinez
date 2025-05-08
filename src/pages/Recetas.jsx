@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { images } from '../assets/imagenes';
+import { Link } from "react-router-dom";
 import '../styles/Productos.css';
 import '../styles/Recetas.css';
 
@@ -51,8 +52,8 @@ function Recetas() {
                 
                   <h5 className="card-titulo">{receta.nombre}</h5>
                 
-                <a href="#" className="btn btn-dark">Preparación</a>
-                <a href="#" className="btn btn-primary">Agregar ingredientes al carrito</a>
+                <Link to={`/Recetas/${receta.id}`} ><button className="btn btn-dark">Preparación</button></Link>
+                <button className="btn btn-primary">Agregar ingredientes al carrito</button>
               </div>
 
             </div>
