@@ -11,8 +11,8 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-transparent fixed-top " >
       <div className="container-fluid">
 
-        <img src={Logo} width={150} height={70}/>
         
+        <Link to="/" className="nav-link"><img src={Logo} width={150} height={70}/></Link>
         <div>
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
