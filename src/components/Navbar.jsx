@@ -33,7 +33,7 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#" onClick={() => setMostrarCarrito(true)}><img src={Carrito} width={30} height={30}/></a>
+              <button className="nav-link" onClick={() => setMostrarCarrito(prev => !prev)}> <img src={Carrito} width={30} height={30} alt="Carrito"/> </button>
             </li>
 
             {mostrarCarrito && (
@@ -41,7 +41,7 @@ function Navbar() {
                 <div className="carrito-info">
                       <h5>Tu carrito esta vacio</h5>
                         <Link to="/Carrito"><button className="btn btn-dark">Ir al carrito</button></Link>    
-                                   
+                        
                       
                 </div>
               </div>

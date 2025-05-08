@@ -25,12 +25,28 @@ function Carrito() {
                     </nav>
                 </div>
 
-
                 <h2>Tu carrito</h2>
 
-                <div className="Cuadro-productos">
-                        <h4>No hay productos en el carrito</h4>
+                <div className="Productos-total">
+                        
+
+                        <div className="Cuadro-productos">
+                                <h4>Producto 1____________________$---</h4>
+                                <h4>Producto 2____________________$---</h4>
+                                <h4>Producto 3____________________$---</h4>
+                                <h4>Producto 4____________________$---</h4>
+                                <h4>Producto 5____________________$---</h4>
+                        </div>
+
+                        <div className="Cuadro-total">
+                                <h4>Subtotal: __________</h4>
+                                <h4>Costo de envio: __________</h4>
+                                <h4>Total: __________</h4>
+                        </div>
                 </div>
+
+
+            <button className="btn btn-dark boton-carrito" type="submit">Finalizar compra</button>
         </div>
     
     </>
