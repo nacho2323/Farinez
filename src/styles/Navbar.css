@@ -1,0 +1,30 @@
+
+.nav-link {
+    color: #E67B22 !important;
+    font-weight: 500;
+  }
+
+.carrito{
+    position: fixed;
+    background-color: #BDD040;
+    border-radius: 4%;
+    height: 50%;
+    width: 18%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.carrito-info{
+  padding: 10%;
+}
+
+.carrito button{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 10% 0; 
+}
+  
