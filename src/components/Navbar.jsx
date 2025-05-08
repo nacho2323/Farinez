@@ -3,11 +3,14 @@ import Logo from "../assets/Logo.png"
 import Carrito from "../assets/carrito.png"
 import { Link } from "react-router-dom";
 import '../styles/Navbar.css'
+import { useLocation } from 'react-router-dom';
+
 
 function Navbar() {
   const [mostrarCarrito, setMostrarCarrito] = useState(false);
-  
+
   return (
+    
     <nav className="navbar navbar-expand-lg bg-transparent fixed-top " >
       <div className="container-fluid">
 
@@ -37,7 +40,9 @@ function Navbar() {
               <div className="carrito">
                 <div className="carrito-info">
                       <h5>Tu carrito esta vacio</h5>
-                      <button className="btn btn-dark" onClick={() => setMostrarCarrito(false)}>Ir al carrito</button>
+                        <Link to="/Carrito"><button className="btn btn-dark">Ir al carrito</button></Link>    
+                                   
+                      
                 </div>
               </div>
             )}

@@ -1,0 +1,26 @@
+.Cuadro-datos{
+    background-color: #035263;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1.5%;
+    border-radius: 10px;
+    
+}
+
+.Cuadro-datos input{
+    background-color: #BDD040;
+    border-color: #BDD040;
+    margin-top: 1%;
+    
+}
+
+.Cuadro-productos{
+    background-color: #E67B22;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 30%;
+    padding: 1%;
+    border-radius: 10px;
+}
