@@ -6,7 +6,7 @@ import '../styles/Recetas.css';
 
 function Recetas() {
   const recetas = [
-    { id: 1, nombre: 'Waffles con dulce de leche', imagen: images.Fondo },
+    { id: 1, nombre: 'Waffles con dulce de leche', imagen: images.WaffleDulce },
     { id: 2, nombre: 'Pizza sin tacc', imagen: images.Pizza },
     { id: 3, nombre: 'Pan sin gluten', imagen: images.Pan },
     { id: 4, nombre: 'Galletas', imagen: images.Galletas },

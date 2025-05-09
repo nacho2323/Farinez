@@ -1,12 +1,6 @@
 import { useParams } from "react-router-dom";
-import { images } from '../assets/imagenes';
-
-const recetas = [
-{ id: 1, nombre: 'Waffles con dulce de leche', imagen: images.Fondo, },
-{ id: 2, nombre: 'Pizza sin tacc', imagen: images.Pizza },
-{ id: 3, nombre: 'Pan sin gluten', imagen: images.Pan },
-{ id: 4, nombre: 'Galletas', imagen: images.Galletas },
-];
+import {recetas} from './datosRecetas';
+import '../styles/DetalleReceta.css'
 
 function DetalleReceta(){
     
@@ -19,9 +13,25 @@ function DetalleReceta(){
 
   return(
     <>
-        <div className="Receta"><h2>{receta.nombre}</h2>
-        </div>
+      <div className="Home">
+          <h2 className="Titulo-receta">{receta.nombre}</h2>
 
+          <div className="Receta">
+              <div>
+              <img src={receta.imagen} alt={receta.nombre}/>
+              <h2>Ingredientes</h2>
+                  <ol className="ingredientes">
+                    {receta.ingredientes.map((ingrediente, index) => ( <li key={index}>{ingrediente}</li> ))}
+                  </ol>
+              </div>
+                
+              <div>
+                  <ol className="pasos">
+                    {receta.pasos.map((paso, index) => ( <li key={index}>{paso}</li> ))}
+                  </ol>
+              </div>
+          </div>
+      </div>
     </>
     
   )
