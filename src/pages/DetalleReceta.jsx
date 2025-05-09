@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import {recetas} from './datosRecetas';
+import {recetas} from '../components/datosRecetas';
 import '../styles/DetalleReceta.css'
 
 function DetalleReceta(){

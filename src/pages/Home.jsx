@@ -12,11 +12,14 @@ function Home(){
 
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
-        speed: 840,
+        speed: 1540,
         slidesToShow: 4,
-        slidesToScroll: 3
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 500 
+        
       };
 
     return (
@@ -126,9 +129,8 @@ function Home(){
                 <h2>Nuestras Recetas </h2>
             
 
-                <div className="slider-container">
+                <div className="recetas-cards">
 
-                        <Slider {...settings}>
 
                                 <div>
 
@@ -177,7 +179,6 @@ function Home(){
                                 </div>
 
 
-                        </Slider>
 
                 </div>
 

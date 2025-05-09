@@ -65,6 +65,16 @@ h2{
     flex-direction: column;
 }
 
+.recetas-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.recetas-cards img{
+  height: 50%;
+  width: 100%;
+}
+
 
 @media (max-width: 768px) {
     .GrupoCard h5 {
