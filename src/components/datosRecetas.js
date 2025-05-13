@@ -25,9 +25,10 @@ export const recetas = [
       'Aceitar una pizzera volcar la masa mandar al horno por 10 o 15 minutos',
       'Con la salsa ya hecha una vez que esté cocida, la masa sacar del horno y cubrir con la salsa, dejar 1 o2 cucharadas de salsa para el final.',
       'Ya la cubrimos con salsa, seguimos con la panceta tapamos con el queso y sobre la cubierta de queso la salpicamos con la salsa que habíamos reservado y también salpicamos con condimento.',
-      'Volvemos al horno hasta que se gratine todo, y a disfrutar esta pizza Celiaca'
+      'Volvemos al horno hasta que se gratine todo, y a disfrutar esta pizza Celiaca ' 
     ]
   },
+  
   {
     id: 3,
     nombre: 'Pan sin gluten',
