@@ -6,7 +6,7 @@ import Recetas from './pages/Recetas'
 import Carrito from './pages/Carrito'
 import DetalleReceta from './pages/DetalleReceta'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-
+import MercadoPagoPractica from './components/MercadoPagoPractica'
 function App(){
   
   return (
@@ -16,6 +16,7 @@ function App(){
         <Route path='/' element={<Home />} />
         <Route path='/Productos' element={<Productos />} />
         <Route path='/Recetas' element={<Recetas />} />
+        <Route path='/MercadoPagoPractica' element={<MercadoPagoPractica />} />
         <Route path='/Carrito' element={<Carrito />} />
         <Route path="/Recetas/:id" element={<DetalleReceta />} />
       </Routes>

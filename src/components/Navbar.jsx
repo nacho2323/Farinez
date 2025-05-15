@@ -33,6 +33,10 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
+              <Link to="/MercadoPagoPractica" className="nav-link">mercadopago</Link>
+            </li>
+
+            <li className="nav-item">
               <button className="nav-link" onClick={() => setMostrarCarrito(prev => !prev)}> <img src={Carrito} width={30} height={30} alt="Carrito"/> </button>
             </li>
 
